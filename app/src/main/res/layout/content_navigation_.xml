@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- code from the navigation feature was supported by https://github.com/vikesh8860/QuizBook
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.lucindabell.quizard.NavigationActivity"
+    tools:showIn="@layout/app_bar_navigation_">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/study"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#f0eb79"
+                android:drawableTop="@drawable/computer"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="onClickView"
+                android:paddingTop="25dp"
+                android:text="Study"
+                android:textAllCaps="false"
+                android:textColor="#2f2e2e"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FFB6C1"
+                android:drawableTop="@drawable/ac"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingTop="25dp"
+                android:text="Activities"
+                android:textAllCaps="false"
+                android:textColor="#2f2e2e"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="0dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#B0E0E6"
+                    android:drawableLeft="@drawable/services_symbol"
+                    android:paddingLeft="45dp"
+                    android:text="Services"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#9370DB"
+                android:drawableTop="@drawable/content"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingTop="25dp"
+                android:text="Content Providers"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#80e7a9"
+                android:drawableTop="@drawable/receive"
+                android:paddingTop="25dp"
+                android:text="Broadcast Receivers"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#d9dbd0"
+                android:drawableTop="@drawable/lifecyc"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingTop="40dp"
+                android:text="Activity Lifecycle"
+                android:textAllCaps="false"
+                android:textColor="#2f2e2e"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FFA500"
+                android:drawableTop="@drawable/code"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingTop="25dp"
+                android:text="Code Summary"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#63c28c"
+                    android:drawableLeft="@drawable/test"
+                    android:paddingLeft="35dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="Module Summary Test"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
